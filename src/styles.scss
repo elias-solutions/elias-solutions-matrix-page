@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensure the canvas is behind other elements */
+}
+
+#content {
+  position: relative;
+  z-index: 1; /* Place content above the canvas */
+  color: white; /* Set text color to white or any color that contrasts with the canvas */
+}

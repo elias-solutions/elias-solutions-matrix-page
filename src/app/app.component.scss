@@ -1,0 +1,22 @@
+.center {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fade-in-text {
+    opacity: 0%;
+    animation: fadeIn 15s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%; 
+    }
+    to {
+        opacity: 100%; 
+    }
+}
